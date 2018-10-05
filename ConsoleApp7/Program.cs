@@ -36,6 +36,7 @@ namespace CoreSenderApp
 
             Console.ReadKey();
 
+
             await queueClient.CloseAsync();
         }
 
